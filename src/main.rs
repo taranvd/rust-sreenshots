@@ -66,6 +66,6 @@ fn make_screen(screens_dir: &String) {
                 screens_dir,
                 now.format("%d-%m-%Y_%H_%M_%S")
             ))
-            .unwrap()  // Unwrap the result; panic if saving fails
+            .unwrap()
     }
 }
